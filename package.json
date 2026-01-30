@@ -5,7 +5,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/examples/usage.js"
+    "start": "node dist/examples/usage.js",
+     "test": "npm run build && node dist/tests/algorithm.test.js"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
